@@ -1,0 +1,28 @@
+git config --global user.name 'admin' 配置用户名
+git config --global user.email '3159764697@qq.com' 配置邮箱地址
+git remote add origin git@github.com:a540167917/cuisine-api.git 连接远程仓库 
+git init 初始化进入分支
+cuisine-api.git 远程仓库名字
+git add bfc.txt 添加修改后的文件
+git commit -m "修改" 提交修改文件
+git push origin master 发送文件到远程仓库中
+git pull origin next:master获取远程仓库数据
+git status查看状态
+git add * 添加当前文件夹下的所有文件
+第一步初始化
+git init
+第二步连接git仓库
+git remote add origin git@github.com:qinlong1774355358/yskc-platform.git
+第三步添加文件到缓存区
+git add aa.txt
+第四步提交
+git commit -m "git init"
+第5步提交分支文件到仓库
+git push -u origin master
+第6步输入远程仓库用户名
+Username for 'https://git.dev.tencent.com': a540167917
+第7步在弹出窗口输入密码
+
+
+
+
